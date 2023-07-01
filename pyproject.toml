@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt-telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["georf1 <rh26157@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gpt_telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
